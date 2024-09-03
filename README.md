@@ -23,7 +23,7 @@ The dataset used in this project is the Titanic dataset, which can be found on K
 * Embarked: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
 
   ## Libraries Used
-  command :
+
   
       import pandas as pd
       import numpy as np
@@ -33,4 +33,43 @@ The dataset used in this project is the Titanic dataset, which can be found on K
       from scipy.stats import ttest_ind, chi2_contingency
       warnings.filterwarnings('ignore')
 
-  hjk
+
+## Data Cleaning
+Basic data cleaning steps were performed, including:
+
+* Handling missing values
+* Converting data types where necessary
+* Removing unnecessary columns
+
+### Key functions used:
+
+* shape()
+* describe()
+
+## Exploratory Data Analysis (EDA)
+
+1. Basic Information
+* Checked the shape and summary statistics of the data.
+* Analyzed the distribution of numerical and categorical features.
+  
+2. Visualizations
+* Countplot of Gender: Visualized the distribution of male and female passengers.
+* Countplot of Passenger Class: Analyzed the distribution of passengers across different classes.
+* Countplot of Embarked: Analyzed the distribution according to Embarked.
+* Violin Plot of Age, Sex, and Survival: Explored the distribution of ages by gender and survival status.
+* Line Chart: Showed trends over continuous variables.
+* Histogram (Histplot): Examined the frequency distribution of continuous variables.
+* Heatmap: Visualized the correlation matrix to understand relationships between features.
+
+3. Correlation Analysis
+* Identified correlations between features using a heatmap.
+  
+4. Statistical Tests
+* T-Test: Performed t-tests to compare means between groups (e.g., survival by gender).
+* Chi-Square Test: Tested for independence between categorical variables (e.g., survival by passenger class).
+
+## Conclusion:
+
+The analysis provided insights into the factors that influenced survival on the Titanic. For example, gender, age, and passenger class were significant factors.
+
+
