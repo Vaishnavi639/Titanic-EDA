@@ -48,11 +48,11 @@ Basic data cleaning steps were performed, including:
 
 ## Exploratory Data Analysis (EDA)
 
-1. Basic Information
+** 1. Basic Information **
 * Checked the shape and summary statistics of the data.
 * Analyzed the distribution of numerical and categorical features.
   
-2. Visualizations
+** 2. Visualizations **
 * Countplot of Gender: Visualized the distribution of male and female passengers.
 * Countplot of Passenger Class: Analyzed the distribution of passengers across different classes.
 * Countplot of Embarked: Analyzed the distribution according to Embarked.
@@ -61,10 +61,10 @@ Basic data cleaning steps were performed, including:
 * Histogram (Histplot): Examined the frequency distribution of continuous variables.
 * Heatmap: Visualized the correlation matrix to understand relationships between features.
 
-3. Correlation Analysis
+** 3. Correlation Analysis **
 * Identified correlations between features using a heatmap.
   
-4. Statistical Tests
+** 4. Statistical Tests **
 * T-Test: Performed t-tests to compare means between groups (e.g., survival by gender).
 * Chi-Square Test: Tested for independence between categorical variables (e.g., survival by passenger class).
 
