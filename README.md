@@ -24,6 +24,7 @@ The dataset used in this project is the Titanic dataset, which can be found on K
 
   ## Libraries Used
   command :
+  
       import pandas as pd
       import numpy as np
       import seaborn as sns
@@ -31,3 +32,5 @@ The dataset used in this project is the Titanic dataset, which can be found on K
       import warnings
       from scipy.stats import ttest_ind, chi2_contingency
       warnings.filterwarnings('ignore')
+
+  hjk
